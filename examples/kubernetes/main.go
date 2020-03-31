@@ -17,7 +17,7 @@ import (
 const (
 	// berglasContainer is the default berglas container from which to pull the
 	// berglas binary.
-	berglasContainer = "gcr.io/berglas/berglas:latest"
+	berglasContainer = "eu.gcr.io/rbmh-deployment-platform-prod/berglas"
 
 	// binVolumeName is the name of the volume where the berglas binary is stored.
 	binVolumeName = "berglas-bin"
