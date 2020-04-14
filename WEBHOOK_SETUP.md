@@ -19,7 +19,6 @@ gcloud functions deploy ${WEBHOOK_NAME} \
   --runtime go111 \
   --entry-point F \
   --trigger-http \
-  --ingress-settings internal-only\ #todo
   --region europe-west1
 ```
 
